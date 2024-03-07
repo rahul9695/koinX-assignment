@@ -13,7 +13,7 @@ const Home = () => {
   return (
     <div className="max-w-[1650px] mx-auto">
       <Navbar />
-      <div className="top-[70px] flex flex-col md:gap-[1%] bg-gray-200 px-[10px] md:px-[20px] relative h-max lg:flex-row">
+      <div className="top-[55px] flex flex-col md:gap-[1%] bg-gray-200 px-[10px] md:px-[20px] relative h-max lg:flex-row">
         <div className="lg:w-[70%] w-[100%] h-max">
           <Chart />
           <Fundamentals />

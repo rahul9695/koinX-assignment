@@ -7,7 +7,7 @@ const Navbar = () => {
         alt=""
         src="/1-koinx-logo@2x.png"
       />
-      <div className="md:flex  hidden flex flex-row items-center justify-start gap-[30px] max-w-full">
+      <div className="lg:flex hidden flex-row items-center justify-start gap-[30px] max-w-full">
         <div className="h-[19px] w-[102px] font-semibold inline-block whitespace-nowrap">
           Crypto Taxes
         </div>
@@ -23,8 +23,8 @@ const Navbar = () => {
           Get Started
         </button>
       </div>
-      <div className="md:hidden">
-        <i className="fa-solid fa-bars fa-xl"></i>
+      <div className="lg:hidden">
+        <i className="fa-solid fa-bars fa-lg"></i>
       </div>
     </header>
   );

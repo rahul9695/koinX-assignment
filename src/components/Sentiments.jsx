@@ -1,19 +1,19 @@
 const Sentiments = () => {
   return (
-    <div className="bg-white rounded-md px-6 py-6 pb-14 my-6 relative">
+    <div className="bg-white rounded-md px-4 py-6 pb-14 my-6 relative">
       <h2 className="text-[24px] font-semibold">Sentiments</h2>
       <h6 className="text-[20px] font-semibold text-gray-500 mt-1">
         Key Events
       </h6>
       <div className="flex gap-[20px] mt-5 overflow-y-scroll scrollbar-hide">
-        <div className="min-w-[456px] px-6 py-3 flex gap-[10px] bg-[#E8F4FD] rounded-md">
-          <div className="min-w-10 h-10 bg-gray-200 rounded-full"></div>
+        <div className="min-w-[406px] px-2 py-3 flex gap-[10px] bg-[#E8F4FD] rounded-md">
+          <div className="min-w-12 min-h-12 max-h-12 mt-2 bg-gray-200 rounded-full"></div>
           <div className="flex flex-col gap-[10px]">
-            <h3 className="font-bold text-gray-700">
+            <h3 className="font-bold text-sm text-gray-700">
               Lorem ipsum dolor sit amet consectetur. Dui vel quis dignissim
               mattis enim tincidunt.
             </h3>
-            <p>
+            <p className="text-sm">
               Lorem ipsum dolor sit amet consectetur. Ac phasellus risus est
               faucibus metus quis. Amet sapien quam viverra adipiscing
               condimentum. Ac consectetur et pretium in a bibendum in. Sed vitae
@@ -21,14 +21,14 @@ const Sentiments = () => {
             </p>
           </div>
         </div>
-        <div className="min-w-[456px] px-6 py-3 flex gap-[10px] bg-[#EBF9F4] rounded-md">
-          <div className="min-w-10 h-10 bg-gray-200 rounded-full"></div>
+        <div className="min-w-[426px] px-2 py-3 flex gap-[10px] bg-[#E8F4FD] rounded-md">
+          <div className="min-w-12 min-h-12 max-h-12 mt-2 bg-gray-200 rounded-full"></div>
           <div className="flex flex-col gap-[10px]">
-            <h3 className="font-bold text-gray-700">
+            <h3 className="font-bold text-sm text-gray-700">
               Lorem ipsum dolor sit amet consectetur. Dui vel quis dignissim
               mattis enim tincidunt.
             </h3>
-            <p>
+            <p className="text-sm">
               Lorem ipsum dolor sit amet consectetur. Ac phasellus risus est
               faucibus metus quis. Amet sapien quam viverra adipiscing
               condimentum. Ac consectetur et pretium in a bibendum in. Sed vitae
@@ -36,8 +36,8 @@ const Sentiments = () => {
             </p>
           </div>
         </div>
-        <div className="w-10 h-10 flex rounded-full justify-center items-center absolute right-10 top-[200px] bg-gray-300 cursor-pointer hover:bg-gray-500">
-          <i className="fa-solid fa-chevron-right fa-lg"></i>
+        <div className="w-8 h-8 hidden md:flex rounded-full justify-center items-center absolute right-10 top-[190px] border-2  cursor-pointer hover:bg-gray-500">
+          <i className="fa-solid fa-chevron-right fa-sm md:fa-lg"></i>
         </div>
       </div>
       <h6 className="text-[20px] font-semibold text-gray-500 mt-10">
