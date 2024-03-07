@@ -1,6 +1,6 @@
 const TrendingCoins = () => {
   return (
-    <div className="sticky top-20 mt-4 rounded-md p-6 bg-white">
+    <div className="md:sticky top-20 mt-4 rounded-md mb-6 p-6 bg-white">
       <h2 className="text-[20px] font-semibold">Trending Coins (24h)</h2>
       <div>
         <div className="flex pt-4 items-center justify-between">

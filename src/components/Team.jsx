@@ -1,6 +1,6 @@
 const Team = () => {
   return (
-    <div className="bg-white rounded-md px-6 py-6 pb-10 my-6 mb-28 relative">
+    <div className="bg-white rounded-md px-6 py-6 pb-10 my-6 mb-18 relative">
       <h2 className="text-[24px] font-semibold">Team</h2>
       <p className="mt-4">
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae quibusdam

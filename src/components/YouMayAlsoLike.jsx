@@ -2,7 +2,7 @@ import BottomTinyChart from "./BottomTinyChart";
 
 const YouMayAlsoLike = () => {
   return (
-    <div className="bg-white rounded-md px-6 py-6 pb-14 relative">
+    <div className="bg-white rounded-md px-6 pb-8 mt-20">
       <h2 className="text-[24px] font-semibold">You May Also Like</h2>
       <div className="flex mt-6 gap-4 overflow-y-auto scrollbar-hide">
         <BottomTinyChart />

@@ -1,6 +1,6 @@
 const Navbar = () => {
   return (
-    <header className="fixed w-full self-stretch bg-white shadow-[0px_0px_12px_rgba(16,_38,_73,_0.0.6)] flex items-center justify-between py-4 px-[30px] top-[0] z-[99] gap-[20px] border-b-[1px] border-solid">
+    <header className="fixed w-full self-stretch bg-white shadow-[0px_0px_12px_rgba(16,_38,_73,_0.06)] flex items-center justify-between py-4 px-[30px] top-[0] z-[99] gap-[20px] border-b-[1px] border-solid">
       <img
         className="h-6 w-24"
         loading="lazy"
